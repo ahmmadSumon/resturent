@@ -20,7 +20,7 @@ const Hero = () => {
                 <Link href="/menu" passHref>
                 <button className="text-lg text-white bg-[#F14321] hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-3 py-2 flex justify-center items-center gap-2 rounded-md font-medium transition duration-300"><MdDeliveryDining  size={24}/> Order Online</button>
                 </Link>
-                <Link href="mailto:arifahmmadsumon@gmail.com?subject=Regarding Your Website" passHref>
+                <Link href="/table" passHref>
                 <button className="text-lg text-white bg-[#F14321] hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-3 py-2 flex justify-center items-center gap-2 rounded-md font-medium transition duration-300"> Book a Table</button>
                 </Link>
               </div>

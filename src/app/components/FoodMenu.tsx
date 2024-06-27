@@ -46,15 +46,15 @@ const FoodMenu = () => {
       description: 'Classic omelette made with farm-fresh eggs.'
     },
     { 
-      title: 'Pancakes',
-      price: '90',
+      title: 'Chicken Basmati',
+      price: '890 TK',
       category: 'Lunch',
       image: offer3,
       description: 'Fluffy pancakes served with maple syrup and butter.'
     },
     { 
       title: 'Waffles',
-      price: '100',
+      price: '100 TK',
       category: 'Breakfast',
       image: offer1,
       description: 'Crispy waffles topped with fresh fruits and whipped cream.'
@@ -67,8 +67,8 @@ const FoodMenu = () => {
       description: 'Satisfying grilled sandwich with a variety of fillings.'
     },
     { 
-      title: 'Caesar Salad',
-      price: '90',
+      title: 'Chicken Big Burger',
+      price: '100 TK',
       category: 'Lunch',
       image: offer3,
       description: 'Fresh Caesar salad with homemade dressing and croutons.'
@@ -81,8 +81,8 @@ const FoodMenu = () => {
       description: 'Authentic pasta dish cooked to perfection with your choice of sauce.'
     },
     { 
-      title: 'Steak',
-      price: '1500',
+      title: 'Chicken Big Cheese Burger',
+      price: '150 TK',
       category: 'Lunch',
       image: offer1,
       description: 'Juicy steak served with roasted vegetables and mashed potatoes.'
@@ -118,40 +118,47 @@ const FoodMenu = () => {
   ];
 
   const drinkItems: MenuItem[] = [
+    
     { 
-      title: 'Espresso',
-      price: '150',
+      title: 'Special Hot Coffee',
+      price: '100 TK',
       category: 'Drinks',
-      description: 'A strong shot of coffee made by forcing steam through finely-ground coffee beans.'
-    },
-    { 
-      title: 'Latte',
-      price: '180',
-      category: 'Drinks',
+      image: offer2,
       description: 'A coffee drink made with espresso and steamed milk.'
     },
     { 
       title: 'Cappuccino',
-      price: '200',
+      price: '120 TK',
       category: 'Drinks',
+      image: offer2,
       description: 'A coffee drink made with espresso and foamed milk.'
     },
     { 
-      title: 'Iced Tea',
-      price: '100',
+      title: 'Hot Coffee',
+      price: '70 TK',
       category: 'Drinks',
+      image: offer2,
+      description: 'A strong shot of coffee made by forcing steam through finely-ground coffee beans.'
+    },
+    { 
+      title: 'Special Lassi',
+      price: '90 TK',
+      category: 'Drinks',
+      image: offer2,
       description: 'Chilled tea served over ice, perfect for hot summer days.'
     },
     { 
-      title: 'Smoothie',
-      price: '150',
+      title: 'Lemonade ',
+      price: '50 TK',
       category: 'Drinks',
+      image: offer2,
       description: 'A refreshing blended drink made with fresh fruits and yogurt.'
     },
     { 
-      title: 'Hot Chocolate',
-      price: '200',
+      title: 'Cold Coffee',
+      price: '90 TK',
       category: 'Drinks',
+      image: offer2,
       description: 'A comforting and creamy chocolate drink, perfect for cold days.'
     },
   ];

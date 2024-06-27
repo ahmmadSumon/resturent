@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import deliveryImage from '../../../public/images/deli.png';
+import Link from 'next/link';
 
 const HomeDelivery = () => {
   return (
@@ -30,9 +31,11 @@ const HomeDelivery = () => {
           </ul>
         </div>
         <div className="text-center lg:text-left">
+          <Link href='/menu'>
           <button className="mt-4 px-6 py-3 bg-[#F14321] text-white rounded-lg hover:bg-red-600 transition duration-300">
             Order Now
           </button>
+          </Link>
         </div>
       </div>
       <div className="w-full lg:w-1/2 mt-8 lg:mt-0 flex justify-center">

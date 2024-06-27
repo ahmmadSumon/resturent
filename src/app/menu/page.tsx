@@ -173,6 +173,20 @@ const Menu: FC = () => {
       description: 'A coffee drink made with espresso and foamed milk.'
     },
     { 
+      title: ' Platter',
+      price: '220',
+      category: 'Dinner',
+      image: soup,
+      description: 'Exquisite seafood platter featuring a variety of fresh seafood.'
+    },
+    { 
+      title: 'Briyani',
+      price: '200',
+      category: 'Dinner',
+      image: offer2,
+      description: 'Succulent lamb chops grilled to perfection and served with mint sauce.'
+    },
+    { 
       title: 'Special Lassi',
       price: '90 TK',
       category: 'Drinks',
