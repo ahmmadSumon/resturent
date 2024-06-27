@@ -87,16 +87,10 @@ const Menu: FC = () => {
       image: offer2,
       description: 'Classic omelette made with farm-fresh eggs.'
     },
-    { 
-      title: 'Pancakes',
-      price: '$90',
-      category: 'Lunch',
-      image: offer3,
-      description: 'Fluffy pancakes served with maple syrup and butter.'
-    },
+    
     { 
       title: 'Waffles',
-      price: '$100',
+      price: '100 TK',
       category: 'Breakfast',
       image: offer1,
       description: 'Crispy waffles topped with fresh fruits and whipped cream.'
@@ -109,8 +103,8 @@ const Menu: FC = () => {
       description: 'Satisfying grilled sandwich with a variety of fillings.'
     },
     { 
-      title: 'Caesar Salad',
-      price: '$90',
+      title: 'Chicken Big Burger',
+      price: '100 TK',
       category: 'Lunch',
       image: offer3,
       description: 'Fresh Caesar salad with homemade dressing and croutons.'
@@ -123,78 +117,78 @@ const Menu: FC = () => {
       description: 'Authentic pasta dish cooked to perfection with your choice of sauce.'
     },
     { 
-      title: 'Steak',
-      price: '$150',
+      title: 'Chicken Big Cheese Burger',
+      price: '150 TK',
       category: 'Lunch',
       image: offer1,
       description: 'Juicy steak served with roasted vegetables and mashed potatoes.'
     },
     { 
-      title: 'Pizza1',
-      price: '$200',
+      title: 'Big Chicken Pizza',
+      price: '400 TK',
       category: 'Breakfast',
       image: pizza1,
       description: 'Tender roast chicken seasoned with herbs and spices.'
     },
     { 
-      title: 'Pizza2',
-      price: '$180',
+      title: 'Pizza',
+      price: '180 TK',
       category: 'Breakfast',
       image: pizza2,
       description: 'Classic spaghetti bolognese made with homemade sauce.'
     },
     { 
-      title: 'Seafood Platter',
-      price: '$220',
+      title: 'Special Sandwitch',
+      price: '70 TK',
       category: 'Dinner',
       image: soup,
       description: 'Exquisite seafood platter featuring a variety of fresh seafood.'
     },
     { 
-      title: 'Lamb Chops',
-      price: '$240',
+      title: 'Crispy Chicken Fry',
+      price: '100 TK',
       category: 'Dinner',
       image: offer2,
       description: 'Succulent lamb chops grilled to perfection and served with mint sauce.'
     },
     { 
-      title: 'Espresso',
-      price: '$3.50',
+      title: 'Hot Coffee',
+      price: '70 TK',
       category: 'Drinks',
       image: offer2,
       description: 'A strong shot of coffee made by forcing steam through finely-ground coffee beans.'
     },
     { 
-      title: 'Latte',
-      price: '$4.00',
+      title: 'Special Hot Coffee',
+      price: '100 TK',
       category: 'Drinks',
       image: offer2,
       description: 'A coffee drink made with espresso and steamed milk.'
     },
     { 
       title: 'Cappuccino',
-      price: '$4.00',
+      price: '120 TK',
       category: 'Drinks',
       image: offer2,
       description: 'A coffee drink made with espresso and foamed milk.'
     },
     { 
-      title: 'Iced Tea',
-      price: '$2.50',
+      title: 'Special Lassi',
+      price: '90 TK',
       category: 'Drinks',
       image: offer2,
       description: 'Chilled tea served over ice, perfect for hot summer days.'
     },
     { 
-      title: 'Smoothie',
-      price: '$5.00',
+      title: 'Lemonade ',
+      price: '50 TK',
       category: 'Drinks',
       image: offer2,
       description: 'A refreshing blended drink made with fresh fruits and yogurt.'
     },
     { 
-      title: 'Hot Chocolate',
-      price: '$4.50',
+      title: 'Cold Coffee',
+      price: '90 TK',
       category: 'Drinks',
       image: offer2,
       description: 'A comforting and creamy chocolate drink, perfect for cold days.'
