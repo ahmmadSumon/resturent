@@ -17,11 +17,11 @@ const Hero = () => {
                 The best food experience in <span className='text-[#F14321]'> Parbatipur</span> 
               </h1>
               <div className="flex flex-col md:flex-row gap-4 mt-8">
-                <Link href="/resume" passHref>
+                <Link href="/menu" passHref>
                 <button className="text-lg text-white bg-[#F14321] hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-3 py-2 flex justify-center items-center gap-2 rounded-md font-medium transition duration-300"><MdDeliveryDining  size={24}/> Order Online</button>
                 </Link>
                 <Link href="mailto:arifahmmadsumon@gmail.com?subject=Regarding Your Website" passHref>
-                <button className="text-lg text-white bg-[#F14321] hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-3 py-2 flex justify-center items-center gap-2 rounded-md font-medium transition duration-300"> Browse Location</button>
+                <button className="text-lg text-white bg-[#F14321] hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-3 py-2 flex justify-center items-center gap-2 rounded-md font-medium transition duration-300"> Book a Table</button>
                 </Link>
               </div>
             </div>
