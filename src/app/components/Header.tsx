@@ -39,7 +39,7 @@ export default function Nav() {
             </Link>
           </div>
           <div className="hidden md:flex md:items-center md:space-x-4">
-            <Link href="/login">
+            <Link href="/menu">
               <button className="text-lg bg-[#F14321] hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-3 py-2 flex justify-center items-center gap-2 rounded-md font-medium transition duration-300"><MdDeliveryDining  size={24}/> Order Online</button>
             </Link>
             <Link href="/cart">
@@ -88,7 +88,7 @@ export default function Nav() {
             <Link href="/contact">
               <div className="text-lg hover:bg-gray-200 hover:text-black hover:shadow-md block px-3 py-2 rounded-md font-medium cursor-pointer transition duration-300">Contact</div>
             </Link>
-            <Link href="/login">
+            <Link href="/menu">
               <button className="text-lg hover:bg-gray-200 hover:text-black hover:shadow-md block px-3 py-2 rounded-md flex justify-center items-center gap-2 font-medium transition duration-300"><MdDeliveryDining size={24}/> Order Online</button>
             </Link>
             <Link href="/cart">
