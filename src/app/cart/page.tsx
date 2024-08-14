@@ -19,6 +19,8 @@ const Cart = () => {
   const cartItems = useCartStore((state: any) => state.cartItems);
   const removeFromCart = useCartStore((state: any) => state.removeFromCart);
   const clearCart = useCartStore((state: any) => state.clearCart);
+  const increaseQuantity = useCartStore((state: any) => state.increaseQuantity);
+  const decreaseQuantity = useCartStore((state: any) => state.decreaseQuantity);
 
   const [customerDetails, setCustomerDetails] = useState<CustomerDetails>({
     name: '',
@@ -65,26 +67,46 @@ const Cart = () => {
                 <p className="text-gray-500">No items in cart</p>
               ) : (
                 <ul>
-                  {cartItems.map((item: CartItem, index: number) => (
-                    <li key={index} className="mb-2 flex justify-between items-center">
-                      <div className="flex flex-col">
-                        <span>{item.title} x {item.quantity}</span>
-                        <span>{item.price}</span>
-                      </div>
-                      <button
-                        className="text-red-500 hover:text-red-700 ml-2"
-                        onClick={() => removeFromCart(item.title)}
-                      >
-                        Remove
-                      </button>
-                    </li>
-                  ))}
-                </ul>
+  {cartItems.map((item: CartItem, index: number) => (
+    <li key={index} className="mb-2 flex justify-between">
+      <div className="flex flex-col">
+        <span>{item.title} x {item.quantity}</span>
+        <span>{item.price}</span>
+      </div>
+      <div className="flex items-center justify-center gap-10">
+        <div className='flex justify-center items-center gap-2'>
+        <button
+          className="text-green-500 text-xl text-bold hover:text-green-700"
+          onClick={() => increaseQuantity(item.title)}
+        >
+          +
+        </button>
+        <span>{item.quantity}</span>
+        <button
+          className="text-red-500 text-3xl  text-bold hover:text-red-700"
+          onClick={() => decreaseQuantity(item.title)}
+        >
+          -
+        </button>
+        </div>
+       <div>
+       <button
+          className="text-red-500  hover:text-red-700 ml-4"
+          onClick={() => removeFromCart(item.title)}
+        >
+          Remove
+        </button>
+       </div>
+       
+      </div>
+    </li>
+  ))}
+</ul>
               )}
               {cartItems.length > 0 && (
                 <>
                   <div className="mt-4">
-                    <span className="text-lg font-bold">Total Price: {totalPrice} TK</span>
+                    <span className="text-lg j font-bold">Total Price: {totalPrice} TK</span>
                   </div>
                   <div className="mt-4">
                     <button

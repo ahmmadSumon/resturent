@@ -12,8 +12,8 @@ const Hero = () => {
           
           {/* Left column (text content) */}
           <div className="w-full md:w-[40vw] relative bg-cover bg-center rounded-lg p-6" style={{ backgroundImage: `url(${Img2.src})` }}>
-            <div className=" bg-opacity-60 p-6 rounded-lg">
-              <h1 className="text-4xl  text-[#111827] font-extrabold w-full">
+            <div className=" bg-opacity-60 py-6 rounded-lg">
+              <h1 className="text-4xl md:text-6xl  text-[#111827] font-extrabold w-full">
                 The best food experience in <span className='text-[#F14321]'> Parbatipur</span> 
               </h1>
               <div className="flex flex-col md:flex-row gap-4 mt-8">
