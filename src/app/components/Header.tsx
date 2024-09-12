@@ -21,7 +21,7 @@ export default function Nav() {
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
-              <div className="text-2xl font-bold text-[#F14321] cursor-pointer">Coffee House+</div>
+              <div className="md:text-2xl text-xl font-bold text-[#F14321] cursor-pointer">Coffee House+</div>
             </Link>
           </div>
           <div className="hidden md:flex md:items-center md:space-x-8 flex-grow justify-center">
@@ -40,7 +40,7 @@ export default function Nav() {
           </div>
           <div className="hidden md:flex md:items-center md:space-x-4">
             <Link href="/menu">
-              <button className="text-lg bg-[#F14321] hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-3 py-2 flex justify-center items-center gap-2 rounded-md font-medium transition duration-300"><MdDeliveryDining  size={24}/> Order Online</button>
+              <button className="text-lg bg-[#F14321] hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-3 py-2 flex justify-center items-center gap-2 rounded-md font-medium transition duration-300"><MdDeliveryDining  size={24}/> 01318906033</button>
             </Link>
             <Link href="/cart">
               <div className="relative text-lg hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-3 py-2 rounded-md font-medium cursor-pointer transition duration-300">
@@ -54,6 +54,10 @@ export default function Nav() {
             </Link>
           </div>
           <div className="flex items-center md:hidden space-x-4">
+          <Link href="/menu">
+              <button className="text-sm bg-[#F14321] hover:bg-gray-200 hover:text-[#000] hover:shadow-md px-2 py-1 flex justify-center items-center gap-2 rounded-md font-medium transition duration-300"> 01318906033</button>
+            </Link>
+          
             <Link href="/cart">
               <div className="relative focus:outline-none">
                 <FiShoppingCart size={24} />
@@ -89,7 +93,7 @@ export default function Nav() {
               <div className="text-lg hover:bg-gray-200 hover:text-black hover:shadow-md block px-3 py-2 rounded-md font-medium cursor-pointer transition duration-300">Contact</div>
             </Link>
             <Link href="/menu">
-              <button className="text-lg hover:bg-gray-200 hover:text-black hover:shadow-md block px-3 py-2 rounded-md flex justify-center items-center gap-2 font-medium transition duration-300"><MdDeliveryDining size={24}/> Order Online</button>
+              <button className="text-lg hover:bg-gray-200 hover:text-black hover:shadow-md block px-3 py-2 rounded-md flex justify-center items-center gap-2 font-medium transition duration-300"><MdDeliveryDining size={24}/> 01318906033</button>
             </Link>
             <Link href="/cart">
               <div className="relative text-lg hover:bg-gray-200 hover:text-black hover:shadow-md block px-3 py-2 rounded-md font-medium cursor-pointer transition duration-300">

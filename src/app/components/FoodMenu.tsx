@@ -238,6 +238,7 @@ const FoodMenu = () => {
           </button>
         </Link>
       </div>
+      
     </div>
   );
 };

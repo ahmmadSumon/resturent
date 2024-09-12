@@ -9,7 +9,7 @@ import HomeDelivery from './components/HomeDelivery'
 
 const page = () => {
   return (
-    <div className='bg-[#f7f6f5]'>
+    <div className='bg-[#FCF8EA]'>
       <Hero/>
       <FoodMenu/>
       <WhyChooseUs/>
@@ -17,6 +17,7 @@ const page = () => {
       <HomeDelivery/>
      <Testimonials/>
       <AboutUs/>
+     
     </div>
   )
 }
